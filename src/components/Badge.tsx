@@ -47,14 +47,14 @@ export const Badge = (props: Props) => {
       Powered by
       <a
         ref={liteBadge}
-        href={'https://orthomize.nl'}
+        href={'https://orthowize.nl'}
         target="_blank"
         rel="noopener noreferrer"
         class="lite-badge"
         id="lite-badge"
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> Orthomize</span>
+        <span> Orthowize</span>
       </a>
     </span>
   );
